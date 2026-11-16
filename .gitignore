@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 运行期数据（数据库随环境自动生成，不纳入版本管理）
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# 导入导出的临时文件
+*.xlsx
+!docs/**/*.xlsx
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
